@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "no-invalid-chars",
+  "version": "${version}",
+
+  "name": "No Invalid Chars",
+  "description": "This Fabric Minecraft Mod allow u to type any invalid char as paragraph symbol or any else",
+  "authors": [
+    "HiWord9"
+  ],
+  "contact": {
+    "sources": "https://github.com/HiWord9"
+  },
+
+  "license": "MIT License",
+  "icon": "assets/no-invalid-chars/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.HiWord9.NoInvalidChars.NoInvalidChars"
+    ]
+  },
+  "mixins": [
+    "no-invalid-chars.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.15.3",
+    "fabric-api": "*",
+    "minecraft": "*",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

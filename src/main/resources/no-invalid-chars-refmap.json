@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "com/HiWord9/NoInvalidChars/mixin/SharedConstantsMixin": {
+      "isValidChar": "Lnet/minecraft/class_155;method_643(C)Z"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/HiWord9/NoInvalidChars/mixin/SharedConstantsMixin": {
+        "isValidChar": "Lnet/minecraft/class_155;method_643(C)Z"
+      }
+    }
+  }
+}
